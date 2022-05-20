@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+<title>D'Wooden Counter - We bring the bar to you</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.fontspring.com/licenses/the-questa-project/webfont">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="button.css">
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="font.css">
+<link rel="stylesheet" href="media.css">
+<script src="https://kit.fontawesome.com/16e841165f.js" crossorigin="anonymous"></script>
+<style>
+
+body, html {
+  height: 100%;
+  background-color: #008000;
+}
+
+.parallax {
+  background-image: url('pic1.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url('pic2.png');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url('Counter2.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  column-count:3;
+  column-gap: 20px;
+  text-align: center;
+  padding-left: 15px;
+  padding-left: 15px;
+  font-family: '2-Questa_Regular';
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  margin: 5px;
+}
+
+.img {
+ border-radius: 20%;
+ box-shadow: 0px 6px 5px #000000;
+ opacity:0.8;
+}
+
+.i {
+ font-size: 45px;
+ }
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+ul#horizontal-list {
+  list-style-type: none;
+  min-width: 696px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul#horizontal-list li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+.footer {
+   bottom: 0;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	height: auto;
+	max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+	align-items: middle;
+  }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar" id="myNavbar">
+  <a class="active" href="D'WoodenCounterHome.html"><img src="Dwc.png" height="18"></a>
+
+  <a href="BarStations.html"><img src="un.png" height="17"></a> 
+  <a href="Packages.html"><img src="gd.png" height="16"></a> 
+  <a href="AboutUs.html"><img src="gs.png" height="16"></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="container1">
+<br>
+<br>
+<img src="logo.jpg" height="250" class="img w3-animate-opacity">
+<br>
+<br>
+<br>
+<button class="button2" style="vertical-align:middle" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeoRBIO0z3h_T7Nf6Y3mwrJrHIhfpGROrq0GrRds2AsjGquIg/viewform'">BOOK NOW!</button>
+</div>
+
+
+<div class="parallax"></div>
+
+
+<div style="height:auto;text-align:center;background-color:black;padding-bottom:20px;" class="scroll">
+<br>
+<br>
+<br>
+<img src="Text2.png" height="50" alt="Top Class Mobile Bar Service" class="text">
+<h3>"We Bring the Bar To You"</h3>
+<br>
+
+<h2 style="color:white">At D'Wooden Counter Ltd, we don't just bring the bar to our clients, but we bring an experience that you won't forget.</h2>
+
+<br>
+<br>
+<div class="row">
+<div class="column">
+<img src="bar1.jpg" height="450">
+<br>
+<br>
+<h2 style="text-align:left"><img src="un.png" height="25"></h2>
+Our Clients can choose any one of our available bar stations that complements the decor and theme of their event!<br><button class="button" style="vertical-align:middle" onclick="window.location.href='BarStations.html'">BAR STATIONS</button>
+<br>
+
+<img src="drink2.jpg" height="450">
+<br>
+<br>
+<h2 style="text-align:left"><img src="gd.png" height="25"></h2>
+We offer a wide selection of drinks and a list of craft cocktails, all at your request. What more could you want?<br><button class="button" style="vertical-align:middle" onclick="window.location.href='Packages.html'">PACKAGES</button>
+<br>
+
+<img src="staff2.jpg" height="450" width="350">
+<br>
+<br>
+<h2 style="text-align:left"><img src="gs.png" height="25"></h2>
+Hard work and professionalism is what we're about. D'Wooden Counter staff always ensure that the money you spend is well spent.<br><button class="button" style="vertical-align:middle" onclick="window.location.href='AboutUs.html'">WHO WE ARE</button>
+
+</div>
+</div>
+</div>
+
+
+<div class="parallax1"></div>
+
+<div style="height:200px;text-align:center;background-color:black;">
+<br>
+<br>
+<br>
+<img src="wysk.png" height="40" alt="What You Should Know" class="text">
+<br>
+<br>
+<h3>While D'Wooden Counter Ltd. seeks to provide top class mobile service for all occasions and events, we <b><u>Do Not</u></b> provide bar serices for any "ZESS" type events. We also reserve the right to decline offers for providing our serves in specific areas within the country.</h3>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+
+<!-- Footer -->
+<div class="footer w3-center w3-black w3-padding-64">
+<br>
+<img src="logo.jpg" height="255" class="img">
+<br>
+<div class="w3-border-bottom w3-border-grey w3-padding-5">
+<div class="w3-xlarge w3-section">
+    <a href="#" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity i"></i></a>
+    <a href="https://www.instagram.com/dwoodencounter/" target="_blank"><i class="fa fa-instagram w3-hover-opacity i"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-snapchat w3-hover-opacity i"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity i"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-twitter w3-hover-opacity i"></i></a>
+    <a href="#" target="_blank"><i class="fa fa-linkedin w3-hover-opacity i"></i></a>
+  </div>
+</div>
+
+
+<br><br>
+<div class="table">
+
+<p>Copyright &copy; | Developed by <img src="RWlogo.jpg" alt="logo" height="70" class="logo">| All rights reserved.</p>
+
+
+</div>
+
+</div>
+</body>
+</html>
